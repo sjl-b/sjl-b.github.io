@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type"/>
 <title>主页by:sjl</title>
 <link rel="stylesheet" type="text/css" href="style.css" />
-
+<script type="text/javascript" src="js.js"></script>
 </head>
  
 <body style="background-color: #CCFFCC	">
@@ -28,6 +28,7 @@
 			      <li><a href="introduceMyself.html">自我介绍</a></li>
 			      <li><a href="book.html">诗歌作品</a></li>
 			      <li><a href="HappyBirthday/index.html">生日快乐</a></li>
+<li><a href="tc.html">吐槽栏目</a></li>
 			      <li><a href="#">...</a></li>
 		      </ul>
 		  </li>
@@ -37,9 +38,9 @@
 		  <li><a href="#">...</a></li>
      </ul>
 </div>
-<p align="center" style="color:green;font-size:30px"></br></br></br></br></br>"默而知之，学而不厌，诲人不倦"——《论语》
+<p align="center" style="color:green;font-size:30px"></br></br></br></br></br>"默而识之，学而不厌，诲人不倦"——《论语》
 <p/>
-<p align="center" style="color:black;font-size:15px">I hope everything goes well with you！<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<p align="center" style="color:black;font-size:15px">I hope everything goes well with you！<br/><br/><br/><br/><br/><br/>注意：作者已禁用F1-12、右键......<br/><br/><br/><br/><br/><br/><br/>
 <p/>
 <span id="momk"></span><span id="momk" style="color: #ff0000;"></span>
 <script type="text/javascript">
@@ -70,4 +71,16 @@ setTimeout(momxc, 1000);
 #momk{animation:change 10s infinite;font-weight:800; }
 @keyframes change{0%{color:#5cb85c;}25%{color:#556bd8;}50%{color:#e40707;}75%{color:#66e616;}100% {color:#67bd31;}}
 </style>
+<script type="text/javascript">
+//禁用F12
+window.onkeydown = window.onkeyup = window.onkeypress = function (event) {
+    // 判断是否按下F12，F12键码为123
+    if (event.keyCode == 123) {
+    event.preventDefault(); // 阻止默认事件行为
+    window.event.returnValue = false;
+    }
+}
+
+</script>
+
 </body>
