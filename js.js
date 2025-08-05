@@ -9,16 +9,7 @@ window.onkeydown = window.onkeyup = window.onkeypress = function (event) {
 
 
 
-//禁用调试工具
-var threshold = 160; // 打开控制台的宽或高阈值
-// 每秒检查一次
-var check = setInterval(function() {
-    if (window.outerWidth - window.innerWidth > threshold || 
-        window.outerHeight - window.innerHeight > threshold) {
-        // 如果打开控制台，则刷新页面
-        window.location.reload();
-    }
-}, 1000)
+
 
 //屏蔽右键菜单
 document.oncontextmenu = function (event){
