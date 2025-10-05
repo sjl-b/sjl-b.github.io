@@ -4,7 +4,7 @@
    padding:0;
 }
 .nav{
-   background-color:#939dd8;
+   background-color:#5bcf61;
    height:40px;
    width:650px;
    margin:0 auto;
@@ -27,13 +27,13 @@ a{
 	height:40px;
 }
 a:hover{
-    background-color:#666666;
-	color:#FFFFFF;
+    background-color:#61b6e0;
+	color:#d3d5d6;
 }
 /*二级下拉菜单样式设置*/
 ul li ul li{
     float:none;
-	background-color:#EEEEEE;
+	background-color:#000000;
 }
 ul li ul{
     position:absolute;
@@ -44,10 +44,10 @@ ul li ul{
 }
 /*为了兼容IE7写的CSS样式，但是必须写在a:hover前面*/
 ul li ul li a:link,ul li ul li a:visited{
-    background-color:#EEEEEE;
+    background-color:#c5ddcc;
 }
 ul li ul li a:hover{
-    background-color:#009933;
+    background-color:#2b9ce7;
 }
 /*鼠标滑过一级菜单的元素时显示下拉菜单*/
 ul li:hover ul{
